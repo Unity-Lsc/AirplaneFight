@@ -15,7 +15,7 @@ public class MonoSingleton<T> : MonoBehaviour where T : MonoBehaviour
         get {
             if(_instance == null) {
                 _instance = FindObjectOfType<T>();
-                if(_instance = null) {
+                if(_instance == null) {
                     Debug.LogError("场景中未找到类的对象,类名为:" + typeof(T).Name);
                 }
             }

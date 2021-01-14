@@ -6,6 +6,7 @@
 	功能：资源加载管理器
 *****************************************************/
 
+using System;
 using UnityEngine;
 
 public class LoadMgr : NormalSingleton<LoadMgr> 
